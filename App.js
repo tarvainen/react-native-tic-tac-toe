@@ -21,9 +21,9 @@ export default class App extends React.Component {
         <Text style={styles.title}>TicTacToe</Text>
 
         <View style={styles.table}>
-          {rows.map((r, i) =>
-            <View style={styles.row} key={i}>
-              {r.map((c, i) => <Cell onPress={() => console.log('TODO')} key={i} />)}
+          {rows.map((r, rowId) =>
+            <View style={styles.row} key={rowId}>
+              {r.map((c, colId) => <Cell onPress={() => console.log(rowId, colId)} key={colId} />)}
             </View>
           )}
         </View>
