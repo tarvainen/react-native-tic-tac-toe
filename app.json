@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "react-native-todo-app",
-    "slug": "react-native-todo-app",
+    "name": "react-native-tic-tac-toe",
+    "slug": "react-native-tic-tac-toe",
     "privacy": "public",
     "sdkVersion": "31.0.0",
     "platforms": [
